@@ -22,9 +22,8 @@ class BinarySearyAlgorithm:
                 low = mid + 1
             else:
                 high = mid - 1
-    # Value isn't found anywhere in the list, then return none            
-        if low > high:
-            return None
+    # Value isn't found anywhere in the list, then return none           
+        return None
 
     def print_bsearch_hint(self):
         message = """
